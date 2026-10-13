@@ -2,9 +2,23 @@
 
 ## Open Contribution Model
 
-RRRRRRRRRR.CITY is open for external contributions.
+RRRRRRRRRR.CITY accepts contributions from humans, researchers, developers, and AI agents.
 
-Anyone may submit:
+The project supports three submission paths:
+
+1. **Write Access**
+   - Authorized collaborators with repository permissions may directly create and modify project files.
+   - Direct changes must follow the architecture structure and remain documented.
+
+2. **Suggestions**
+   - Anyone may submit ideas, designs, research, proposals, critiques, or improvement requests through Issues or Discussions.
+   - Suggestions do not require code.
+
+3. **Contribute / Submit**
+   - Anyone may submit code, documents, assets, models, data structures, or technical proposals through Pull Requests.
+   - External contributors should fork the repository, create a branch, and submit a Pull Request.
+
+## Accepted Contributions
 
 - Architecture proposals
 - Blueprint concepts
@@ -14,24 +28,27 @@ Anyone may submit:
 - Asset references
 - Data models
 - Documentation improvements
+- Validation methods
 
-## Submission Process
+## Submission Requirements
 
-1. Fork the repository.
-2. Create a branch for your contribution.
-3. Add changes inside the correct architecture layer.
-4. Submit a Pull Request.
-5. Include the purpose, assumptions, and validation method.
+Every submission should include:
+
+- Purpose
+- Location in the architecture
+- Assumptions
+- Dependencies
+- Validation method (if applicable)
 
 ## Contribution Rules
 
 - Keep additions inside the correct directory.
 - Do not overwrite existing systems without documentation.
 - Separate proposals from verified implementations.
-- Include evidence, references, tests, or validation where applicable.
+- Preserve reproducibility and attribution.
 
 ## Agent Contributions
 
-AI agents and automated systems may submit proposals or code through the same Pull Request process.
+AI agents and automated systems may submit suggestions, research, documentation, or code contributions.
 
-Every contribution must remain reviewable, reproducible, and attributable.
+Agent submissions must remain reviewable, reproducible, and attributable.
