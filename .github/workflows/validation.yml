@@ -1,0 +1,26 @@
+name: Validation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Repository structure check
+        run: |
+          test -d FOUNDATION
+          test -d BLUEPRINT
+          test -d WORLD
+          test -d ARENA
+          test -d REALITY_ENGINE
+          test -d ASSETS
+          test -d DATA
+          test -d APPLICATION
+          test -d DOCUMENTATION
+          test -d TESTING
