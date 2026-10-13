@@ -1,57 +1,33 @@
-# RRRRRRRRRR.CITY
+# RRRRRRRR.CITY
 
-## Reality Referee City
+> Early research repository for mechanics, simulation verification,
+> and state-space prototypes.
 
-A city-scale architecture project built around measurable reality, physical systems, simulation, infrastructure, and validated intelligence.
+`rrrrrrrr.city` is a private experimental workspace for building and
+verifying small deterministic dynamical systems before scaling toward
+larger AXIOM simulation work.
 
-## Mission
+## Current scope
 
-Build a persistent reality-based city framework where design, systems, and intelligence are evaluated through evidence, simulation, and reproducible results.
+- Double-pendulum dynamics
+- Mass-matrix positive-definiteness checks
+- Conservative and dissipative energy-balance verification
+- Cross-solver numerical agreement
+- State-space linearization and Jacobian verification
+- Local nonlinear-versus-linearized trajectory tests
 
-## Architecture
+## Current status
 
-```text
-RRRRRRRRRR.CITY
-│
-├── FOUNDATION
-│   └── Charter, laws, governance, standards
-│
-├── BLUEPRINT
-│   └── Master plans, districts, infrastructure, maps, zoning
-│
-├── WORLD
-│   └── Environment, buildings, roads, transportation, utilities
-│
-├── ARENA
-│   └── Competition, simulation, physics, validation
-│
-├── REALITY_ENGINE
-│   └── Physics, simulation, agents, sensors, telemetry
-│
-├── ASSETS
-│   └── 3D, CAD, images, audio, references
-│
-├── DATA
-│   └── Geographic, demographic, simulation, archives
-│
-├── APPLICATION
-│   └── Web, mobile, dashboards, tools
-│
-├── DOCUMENTATION
-│   └── Architecture, research, decisions, handoffs
-│
-└── TESTING
-    └── Validation, benchmarks, reports
-```
+Pre-engineering / research prototype.
 
-## Principles
+This repository does not yet contain a certified physics engine,
+a general reality engine, or a validated city-scale simulation system.
 
-- Reality over assumption.
-- Evidence over claims.
-- Reproducibility over presentation.
-- Systems over isolated components.
-- Long-term architecture over temporary prototypes.
+## Verification principle
 
-## Repository Status
+Every claim should be backed by reproducible tests, declared tolerances,
+versioned parameters, and inspectable numerical outputs.
 
-Initial foundation scaffold created. Real assets, systems, simulations, and documentation will be added into their respective domains.
+## North Star
+
+**First Certified Reproducible Match**
